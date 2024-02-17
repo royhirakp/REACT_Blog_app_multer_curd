@@ -26,7 +26,7 @@ const Home = () => {
           },
         };
         const res = await axios.get(
-          "https://hirakp-fullstackblog-post-prt1.onrender.com/blog",
+          "https://blogapp-api-curd.onrender.com/api/v1/blog",
           config
         );
         setData(res.data.blog);

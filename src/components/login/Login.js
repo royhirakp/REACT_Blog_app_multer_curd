@@ -48,7 +48,7 @@ const Login = (props) => {
         return;
       }
       let res = await axios.post(
-        "https://hirakp-fullstackblog-post-prt1.onrender.com/user/login",
+        "https://blogapp-api-curd.onrender.com/api/v1/user/login",
         body
       );
       setErrorMessege("");
